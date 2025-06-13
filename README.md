@@ -33,4 +33,4 @@ Game ini terdiri dari beberapa *level, di mana setiap level akan meningkatkan ke
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/pawjum.git
+   git clone (https://github.com/depichan18/PawJump.git)
