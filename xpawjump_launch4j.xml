@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Farrell\Documents\netbeans\pawjump\dist\pawjump.jar</jar>
+  <outfile>C:\Users\Farrell\Documents\netbeans\pawjump\pawjump.exe</outfile>
+  <errTitle>Paw Jump - Audio Error</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>pawjump.Main</mainClass>
+    <cp>dist\pawjump.jar</cp>
+  </classPath>
+  <jre>
+    <path>runtime</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>14</minVersion>
+    <maxVersion></maxVersion>
+    <opt>-Djava.awt.headless=false</opt>
+    <opt>-Dsun.java2d.noddraw=true</opt>
+    <opt>-Dsun.java2d.d3d=false</opt>
+    <opt>-Dsun.java2d.opengl=false</opt>
+    <opt>-Dfile.encoding=UTF-8</opt>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0</txtFileVersion>
+    <fileDescription>Paw Jump Game</fileDescription>
+    <copyright>2024</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0</txtProductVersion>
+    <productName>Paw Jump</productName>
+    <companyName></companyName>
+    <internalName>pawjump</internalName>
+    <originalFilename>pawjump.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>
